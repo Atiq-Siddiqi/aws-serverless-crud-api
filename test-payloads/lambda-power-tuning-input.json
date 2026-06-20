@@ -1,0 +1,17 @@
+{
+  "lambdaARN": "YOUR_LAMBDA_FUNCTION_ARN_HERE",
+  "powerValues": [
+    128,
+    256,
+    512,
+    1024
+  ],
+  "num": 10,
+  "payload": {
+    "operation": "list",
+    "tableName": "lambda-apigateway",
+    "payload": {}
+  },
+  "parallelInvocation": true,
+  "strategy": "cost"
+}
